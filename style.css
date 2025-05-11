@@ -123,6 +123,14 @@
         width: 100px;
         height: 150px;
         left: calc(50% - 50px);
+        margin-top: 30px;
+    }
+    @keyframes autoRun{
+        from{
+            transform: perspective(1000px) rotateX(-21deg) rotateY(0deg);
+        }to{
+            transform: perspective(1000px) rotateX(-21deg) rotateY(360deg);
+        }
     }
     .banner .slider .item{
         transform: 
